@@ -8,4 +8,4 @@ class AppleCrawler(scrapy.Spider):
         res=BeautifulSoup(response.body)
         for news in res.select('html'):
             print(news.select('lang')[0].text)
-
+#no print out for print(news.select('lang')[0].text)
