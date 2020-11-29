@@ -20,5 +20,7 @@ print(Lassie.greeting())
 print(hihi.greeting())
 print(Sidney.greeting())
 print(Dog.greeting(Sidney))
+print(Retriever.greeting(Sidney))	
+print(Retriever.greeting(hihi))  
 
     
