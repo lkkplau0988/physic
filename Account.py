@@ -10,17 +10,12 @@ class Account:
         return balance * monthlyInterestRate	        
 
     def display(self):
-        print(self.balance,kei.getMonthlyInterestRate(2))
+        print(balance,monthlyInterestRate,kei.getMonthlyInterest())
         
 kei=Account(200)
-kei.display()
 balance=kei.balance
-print(balance)
 monthlyInterestRate=kei.getMonthlyInterestRate(10)
-print(monthlyInterestRate)
-print(kei.getMonthlyInterest())
-
-
+kei.display()
 
 
 
