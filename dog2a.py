@@ -11,7 +11,7 @@ Benji=Retriever("Benji")
 
 class Golden(Retriever):
     def greeting(self):
-        return ("OHAI!")
+        return ("OHAI!"+Dog.greeting(self))
 Lassie=Dog("Lassie")
 hihi=Retriever("hihi")
 Sidney=Golden("Sidney")
@@ -19,4 +19,5 @@ print(Benji.greeting())
 print(Lassie.greeting())
 print(hihi.greeting())
 print(Sidney.greeting())
+print(Dog.greeting(Sidney))
     
