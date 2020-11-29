@@ -8,3 +8,4 @@ class Account:
 
     def getMonthlyInterest(self):
         return blanace * monthlyInterestRate
+kei=Account(1000)
