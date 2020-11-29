@@ -7,15 +7,16 @@ class Account:
         self.annualInterest=annualInterest
         return (annualInterest/100)
     def getMonthlyInterest(self):
-        return kei.balance * monthlyInterestRate	        
+        return balance * monthlyInterestRate	        
 
     def display(self):
         print(self.balance,kei.getMonthlyInterestRate(2))
         
 kei=Account(200)
 kei.display()
-print(kei.balance)
-monthlyInterestRate=kei.getMonthlyInterestRate(6)
+balance=kei.balance
+print(balance)
+monthlyInterestRate=kei.getMonthlyInterestRate(10)
 print(monthlyInterestRate)
 print(kei.getMonthlyInterest())
 
