@@ -23,5 +23,6 @@ lucky=Retriever("lucky")
 print(lucky.greeting())
 hihi=Dog("hihi")
 print(hihi.greeting())
-
+losy=Dog("losy")
+print(losy.greeting())
     
