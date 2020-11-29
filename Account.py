@@ -12,9 +12,9 @@ class Account:
     def display(self):
         print(balance,monthlyInterestRate,kei.getMonthlyInterest())
         
-kei=Account(200)
+kei=Account(1000)
 balance=kei.balance
-monthlyInterestRate=kei.getMonthlyInterestRate(10)
+monthlyInterestRate=kei.getMonthlyInterestRate(5)
 kei.display()
 
 
