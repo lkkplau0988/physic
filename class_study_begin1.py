@@ -8,3 +8,7 @@ class Person:
 person1 = Person() #create instance of class
 person1.setName('John') 
 print(person1.getName())
+David=Person()
+David.setName("David")
+print(David.getName())
+
